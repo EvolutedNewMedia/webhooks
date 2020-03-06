@@ -1,0 +1,36 @@
+{
+    "name": "obrignoni/webhooks",
+    "description": "This Laravel package helps you organize, secure and map webhooks to events.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4",
+        "mockery/mockery": "^0.9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osvaldo Brignoni",
+            "email": "hello@obrignoni.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Obrignoni\\Webhooks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Obrignoni\\Webhooks\\Test\\": "test",
+            "Obrignoni\\Webhooks\\Stub\\": "stub"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
