@@ -1,5 +1,5 @@
 {
-    "name": "obrignoni/webhooks",
+    "name": "evoluted/webhooks",
     "description": "This Laravel package helps you organize, secure and map webhooks to events.",
     "type": "library",
     "require": {
